@@ -1,0 +1,121 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+.title{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 570px) {
+    .title{
+        font-size: 19px;
+    }
+}
+
+
+.settingsPassword{
+    display: flex;
+}
+
+.btnGenerator{
+	background-color:#504bf1;
+	border-radius:5px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+    margin-top: 20px;
+}
+
+.btnGenerator:hover{
+    background-color:#0482f0;
+}
+
+.btnCopy{
+    background-color:#504bf1;
+	border: none;
+    border-radius: 0px 5px 5px 0px;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family:Arial;
+    font-size: 17px;
+    text-align: center;
+    width: 50px;
+}
+
+.inputField{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.inputPassword{
+    padding: 15px 2px;
+    text-align: center;
+	font-size: 16px;
+	border-width: 0px;
+	background-color: #d9dee0;
+	border-radius: 5px 0px 0px 5px;
+	outline: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.blockRange{
+    margin: 5px 0;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.settingsRange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLeghtPassword{
+    padding: 10px 10px;
+    text-align: center;
+	border-width: 0px;
+	background-color: #d9dee0;
+	border-radius: 5px 5px 5px 5px;
+	outline: none;
+    width: 35px;
+    margin: 5px;
+}
+
+.inputRange{
+    width: 90px;
+}
+
+.checkBox{
+    margin: 10px 0;
+}
+
+.checkBox > span{
+    cursor: pointer;
+    user-select: none;
+}
+.inputCheckbox{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+

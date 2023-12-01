@@ -1,0 +1,102 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.title_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons button, .title_btn button{
+    margin-left: 10px;
+    
+    
+    background-color:#504bf1;
+	border-radius:5px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+}
+
+@media screen and (max-width: 570px) {
+    .buttons button, .title_btn button{
+        font-size: 12px;
+        padding:8px 15px;
+        margin: 2px 0px;
+    }
+
+    .title{
+        font-size: 19px;
+    }
+
+    .title_btn > h4{
+        font-size: 12px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .buttons button, .title_btn button{
+        margin: 2px 0px;
+    }
+}
+
+
+.rusTextarea{
+    margin-top: 20px;
+    width: 70%;
+}
+
+
+.rusTextarea > textarea{
+    resize: none;
+    width: 100%;
+    font-size: 17px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+
+.enTextarea{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.enTextarea > textarea{
+    resize: none;
+    width: 100%;
+    font-size: 17px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
