@@ -1,4 +1,4 @@
-## SysAdminHelper (Alpha v0.1)
+## SysAdminHelper (Alpha v0.2)
 
 ### Web-приложение на Next.JS + React + npm
  + Генератор паролей;
