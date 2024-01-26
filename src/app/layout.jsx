@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SysAdminHelper v0.1',
+  title: 'SysAdminHelper v0.2',
   description: 'Генератор паролей | Транслитер',
 }
 

@@ -5,10 +5,10 @@ import { useState } from "react";
 import { MdContentCopy } from "react-icons/md";
 import { ToastContainer, toast } from "react-toastify";
 
-const numbersList = "0123456789";
+const numbersList = "123456789";
 const symbolsList = "!@#$%";
-const uppercaseList = "QWERTYUIOPASDFGHJKLZXCVBNM";
-const lowercaseList = "qwertyuiopasdfghjklzxcvbnm";
+const uppercaseList = "QWERTYUPASDFGHJKLZXCVBNM";
+const lowercaseList = "qwertyuiopasdfghjkzxcvbnm";
 
 const Generator = () => {
   const [password, setPassword] = useState("");
