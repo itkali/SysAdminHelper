@@ -9,7 +9,7 @@ const Translit = () => {
   
   const [inText, setInText] = useState("");
   const [outText, setOutText] = useState('');
-
+  const [outputCheckBox, setOutputCheckBox] = useState(false);
 
   const Clear = () => {
     setOutText('');
@@ -62,7 +62,8 @@ const Translit = () => {
         answer += converter[inText[i]];
       }
     }
-    setOutText(answer);
+    
+    setOutText(!outputCheckBox ? answer : answer.toLowerCase());
   }
 
 
@@ -85,7 +86,19 @@ const Translit = () => {
         </div>
       </div>
         <textarea name="" id="" cols="" rows="7" defaultValue={outText}></textarea>
+        <div className={styles.checkBox}>
+            <input
+              type="checkbox"
+              className={styles.inputCheckbox}
+              name=""
+              id=""
+              checked={outputCheckBox}
+              onChange={() => setOutputCheckBox(!outputCheckBox)}
+            />
+            <span onClick={() => setOutputCheckBox(!outputCheckBox)}>Результат в строчные буквы</span>
       </div>
+      </div>
+      
       <ToastContainer />
     </div>
   )

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav className={styles.header}>
       <Link href="/" className={styles.logo}>
-        SysAdminHelper (Alpha v0.2)
+        SysAdminHelper (Alpha v0.3)
       </Link>
       <div className={styles.nav}>
         <Link href="/generator" className={styles.link}>
