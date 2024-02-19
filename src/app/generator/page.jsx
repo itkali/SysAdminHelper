@@ -34,8 +34,7 @@ const Generator = () => {
     }
 
     let tempPassword = "";
-    const charactedListLenght = charactedList.length;
-
+    const charactedListLenght = charactedList.length-1;
     function genpass() {
       for (let i = 0; i < passwordLenght; i++) {
         const charactedIndex = Math.round(Math.random() * charactedListLenght);
